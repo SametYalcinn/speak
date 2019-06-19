@@ -1,0 +1,36 @@
+.toggle{
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: #ff18e7;
+}
+
+.speak {
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: #1cff72;
+}
+
+.toggle1, .toggle2{
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: aquamarine;
+}
+
+.speak1, .speak2{
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: #fafffb;
+}
+
