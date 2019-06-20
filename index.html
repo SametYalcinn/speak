@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="speak.js" type="application/javascript"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <button class="speak" onclick="speak.startSpeak('De politie was bezig met een controle bij de werkzaamheden op de A2, toen de automobilist op de tegenovergestelde rijbaan met hoge snelheid langsreed.')">Speak</button>
+    <button class="toggle1">Toggle speaker 1 </button>
+    <button class="speak" onclick="speak2.startSpeak('this is test one')">Speak</button>
+    <button class="toggle2">Toggle speaker 2</button>
+
+<script>
+    let speak = new speechToText();
+    speak.init(".toggle1", {rate: 1.5});
+
+   let speak2 = new speechToText();
+    speak2.init(".toggle2" , {rate: 0.2, language: 'en-US'});
+
+</script>
+</body>
+</html>

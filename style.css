@@ -1,0 +1,30 @@
+.toggle{
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: #32f0ff;
+    color: green;
+}
+
+.speak {
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: #3a86ff;
+}
+
+.toggle1, .toggle2{
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    float: left;
+    margin-right: 20px;
+    background-color: white;
+    color: green;
+}
+
+
